@@ -1,23 +1,8 @@
 {
-  "name": "webrtc-samples",
+  "name": "kscope webcam recording prototype",
   "version": "1.0.0",
-  "description": "Project checking for WebRTC GitHub samples repo",
-  "keywords": [
-    "webrtc",
-    "demos",
-    "samples",
-    "javascript"
-  ],
-  "homepage": "https://github.com/webrtc/samples",
-  "bugs": {
-    "url": "https://github.com/webrtc/samples/issues"
-  },
+  "description": "Simple recording of webcam",
   "license": "BSD-3-Clause",
-  "author": "The WebRTC project authors",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/webrtc/samples.git"
-  },
   "scripts": {
     "start": "http-server . -c-1",
     "test": "npm run eslint && npm run stylelint",
